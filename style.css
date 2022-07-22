@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.hero-image {
+    background-image: url("images/donation6.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  #hero-color{
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    
+    
+  }
+  h1 {
+    text-align: center;
+  }
+  p{
+    
+   text-align: center;
+   margin-left: 25%;
+   margin-right: 25%;
+   
+  }
+  .donate-today{
+    display: flex;
+    
+ }
+ .row{
+    margin-right: 25px;
+   }
+   .row:hover{
+    background-color: #cccccc;
+    border: 1px solid tomato;
+    color: tomato;
+   }
+ #row{
+   margin-left: 25% ;
+  
+ }
+.hero-color{
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+}
+button{
+    
+   margin-left: 45%;
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 30px;
+    
+}
+
+.food-family{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+   
+}
+.family{
+   background-color: #cccccc;
+   margin-left: 10px;
+  
+
+}
+.para{
+    margin-left: 5px;
+    text-align: left;
+   
+
+}
+.footer{
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer h1{
+    color: red;
+
+}
+.footer p{
+    color: white;
+}
+
+
+
+
